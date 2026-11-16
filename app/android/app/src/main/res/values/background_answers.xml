@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_running_channel">回答进行中</string>
+    <string name="answer_finished_channel">回答提醒</string>
+    <string name="answer_notification_title">7u</string>
+    <string name="answer_running_notification">正在准备回答</string>
+    <string name="answer_success_notification">回答已准备好，点按查看</string>
+    <string name="answer_error_notification">这次回答未完成，点按后可重试</string>
+    <string name="daily_memory_channel">每日一句</string>
+    <string name="daily_memory_title">7u · 每日一句</string>
+    <string name="daily_memory_private_preview">今天的一句话已准备好，解锁后查看</string>
+</resources>

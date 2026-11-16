@@ -1,0 +1,82 @@
+# Private source material and local data
+# Never publish chats, names, events, voice, exports, or model caches.
+data/
+releases/
+config/local.json
+app/assets/memory/*.db
+app/assets/memory/*.sqlite
+app/assets/memory/*.sqlite3
+app/assets/memory/daily_memories.json
+app/assets/agent/prompt.md
+
+# Credentials and signing material (DeepSeek, Tencent ASR, Android)
+.env
+.env.*
+!.env.example
+**/*.dpapi
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pem
+**/*.key
+**/key.properties
+**/*key*.txt
+**/secrets/
+**/credentials/
+
+# Archives and distributable binaries
+*.apk
+*.aab
+*.rar
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# Python / uv
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Flutter / Dart / Android
+**/.dart_tool/
+**/.flutter-plugins*
+**/build/
+**/coverage/
+**/android/.gradle/
+**/android/.kotlin/
+**/android/local.properties
+**/android/key.properties
+**/android/.cxx/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+
+# Logs and generated maintenance output
+**/*.log
+**/voice_done.txt
+**/profile_stats.json
+*.tmp
+*.temp
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local scratch files belong outside the public source tree.
+local-only/
+.local/

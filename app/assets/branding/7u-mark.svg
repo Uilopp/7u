@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <title>7u</title>
+  <!-- Source of truth for Android launchers and the Flutter opening mark. -->
+  <rect id="background" width="108" height="108" rx="26" fill="#243D35" />
+  <g id="wordmark" fill="none" stroke="#F5F0E5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 36 H55 L37 72" />
+    <path d="M57 47 V61 C57 68 60.5 72 67 72 C73.5 72 77 68 77 61 V47" />
+  </g>
+</svg>

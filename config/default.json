@@ -1,0 +1,8 @@
+{
+  "database": "data/couple_chat.db",
+  "source_encrypted_database": "",
+  "database_key_file": "",
+  "audio_directory": "",
+  "self_qq": null,
+  "partner_qq": null
+}
